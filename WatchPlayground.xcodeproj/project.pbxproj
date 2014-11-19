@@ -15,6 +15,17 @@
 		7D4E22941A1CFCBF00AFA088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E22931A1CFCBF00AFA088 /* Images.xcassets */; };
 		7D4E22971A1CFCBF00AFA088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E22951A1CFCBF00AFA088 /* LaunchScreen.xib */; };
 		7D4E22A31A1CFCBF00AFA088 /* WatchPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E22A21A1CFCBF00AFA088 /* WatchPlaygroundTests.m */; };
+		7D4E22B31A1CFD3800AFA088 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4E22B21A1CFD3800AFA088 /* WatchKit.framework */; };
+		7D4E22BA1A1CFD3800AFA088 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E22B91A1CFD3800AFA088 /* InterfaceController.m */; };
+		7D4E22BD1A1CFD3800AFA088 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E22BC1A1CFD3800AFA088 /* NotificationController.m */; };
+		7D4E22C01A1CFD3800AFA088 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E22BF1A1CFD3800AFA088 /* GlanceController.m */; };
+		7D4E22C21A1CFD3800AFA088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E22C11A1CFD3800AFA088 /* Images.xcassets */; };
+		7D4E22C61A1CFD3800AFA088 /* WatchPlayground Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E22C51A1CFD3800AFA088 /* WatchPlayground Watch App.app */; };
+		7D4E22CD1A1CFD3800AFA088 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E22CC1A1CFD3800AFA088 /* Interface.storyboard */; };
+		7D4E22CF1A1CFD3800AFA088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E22CE1A1CFD3800AFA088 /* Images.xcassets */; };
+		7D4E22D21A1CFD3800AFA088 /* WatchPlayground WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7D4E22B01A1CFD3800AFA088 /* WatchPlayground WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D4E22DC1A1D054000AFA088 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E22DB1A1D054000AFA088 /* Player.m */; };
+		7D4E22DF1A1D0C9600AFA088 /* RowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E22DE1A1D0C9600AFA088 /* RowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +36,35 @@
 			remoteGlobalIDString = 7D4E227F1A1CFCBF00AFA088;
 			remoteInfo = WatchPlayground;
 		};
+		7D4E22C71A1CFD3800AFA088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4E22781A1CFCBF00AFA088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4E22C41A1CFD3800AFA088;
+			remoteInfo = "WatchPlayground Watch App";
+		};
+		7D4E22D01A1CFD3800AFA088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4E22781A1CFCBF00AFA088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4E22AF1A1CFD3800AFA088;
+			remoteInfo = "WatchPlayground WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D4E22D91A1CFD3800AFA088 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D4E22D21A1CFD3800AFA088 /* WatchPlayground WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7D4E22801A1CFCBF00AFA088 /* WatchPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +82,25 @@
 		7D4E229C1A1CFCBF00AFA088 /* WatchPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4E22A11A1CFCBF00AFA088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D4E22A21A1CFCBF00AFA088 /* WatchPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchPlaygroundTests.m; sourceTree = "<group>"; };
+		7D4E22B01A1CFD3800AFA088 /* WatchPlayground WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchPlayground WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4E22B21A1CFD3800AFA088 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		7D4E22B61A1CFD3800AFA088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4E22B71A1CFD3800AFA088 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		7D4E22B81A1CFD3800AFA088 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7D4E22B91A1CFD3800AFA088 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7D4E22BB1A1CFD3800AFA088 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		7D4E22BC1A1CFD3800AFA088 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		7D4E22BE1A1CFD3800AFA088 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		7D4E22BF1A1CFD3800AFA088 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		7D4E22C11A1CFD3800AFA088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D4E22C51A1CFD3800AFA088 /* WatchPlayground Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchPlayground Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4E22CB1A1CFD3800AFA088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4E22CC1A1CFD3800AFA088 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		7D4E22CE1A1CFD3800AFA088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D4E22DA1A1D054000AFA088 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		7D4E22DB1A1D054000AFA088 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		7D4E22DD1A1D0C9600AFA088 /* RowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowController.h; sourceTree = "<group>"; };
+		7D4E22DE1A1D0C9600AFA088 /* RowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +118,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D4E22AD1A1CFD3800AFA088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E22B31A1CFD3800AFA088 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,6 +134,9 @@
 			children = (
 				7D4E22821A1CFCBF00AFA088 /* WatchPlayground */,
 				7D4E229F1A1CFCBF00AFA088 /* WatchPlaygroundTests */,
+				7D4E22B41A1CFD3800AFA088 /* WatchPlayground WatchKit Extension */,
+				7D4E22C91A1CFD3800AFA088 /* WatchPlayground Watch App */,
+				7D4E22B11A1CFD3800AFA088 /* Frameworks */,
 				7D4E22811A1CFCBF00AFA088 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +146,8 @@
 			children = (
 				7D4E22801A1CFCBF00AFA088 /* WatchPlayground.app */,
 				7D4E229C1A1CFCBF00AFA088 /* WatchPlaygroundTests.xctest */,
+				7D4E22B01A1CFD3800AFA088 /* WatchPlayground WatchKit Extension.appex */,
+				7D4E22C51A1CFD3800AFA088 /* WatchPlayground Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +195,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7D4E22B11A1CFD3800AFA088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E22B21A1CFD3800AFA088 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D4E22B41A1CFD3800AFA088 /* WatchPlayground WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E22B81A1CFD3800AFA088 /* InterfaceController.h */,
+				7D4E22B91A1CFD3800AFA088 /* InterfaceController.m */,
+				7D4E22BB1A1CFD3800AFA088 /* NotificationController.h */,
+				7D4E22BC1A1CFD3800AFA088 /* NotificationController.m */,
+				7D4E22BE1A1CFD3800AFA088 /* GlanceController.h */,
+				7D4E22BF1A1CFD3800AFA088 /* GlanceController.m */,
+				7D4E22C11A1CFD3800AFA088 /* Images.xcassets */,
+				7D4E22B51A1CFD3800AFA088 /* Supporting Files */,
+				7D4E22DA1A1D054000AFA088 /* Player.h */,
+				7D4E22DB1A1D054000AFA088 /* Player.m */,
+				7D4E22DD1A1D0C9600AFA088 /* RowController.h */,
+				7D4E22DE1A1D0C9600AFA088 /* RowController.m */,
+			);
+			path = "WatchPlayground WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7D4E22B51A1CFD3800AFA088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E22B61A1CFD3800AFA088 /* Info.plist */,
+				7D4E22B71A1CFD3800AFA088 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D4E22C91A1CFD3800AFA088 /* WatchPlayground Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E22CC1A1CFD3800AFA088 /* Interface.storyboard */,
+				7D4E22CE1A1CFD3800AFA088 /* Images.xcassets */,
+				7D4E22CA1A1CFD3800AFA088 /* Supporting Files */,
+			);
+			path = "WatchPlayground Watch App";
+			sourceTree = "<group>";
+		};
+		7D4E22CA1A1CFD3800AFA088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E22CB1A1CFD3800AFA088 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,10 +259,12 @@
 				7D4E227C1A1CFCBF00AFA088 /* Sources */,
 				7D4E227D1A1CFCBF00AFA088 /* Frameworks */,
 				7D4E227E1A1CFCBF00AFA088 /* Resources */,
+				7D4E22D91A1CFD3800AFA088 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7D4E22D11A1CFD3800AFA088 /* PBXTargetDependency */,
 			);
 			name = WatchPlayground;
 			productName = WatchPlayground;
@@ -162,6 +289,39 @@
 			productReference = 7D4E229C1A1CFCBF00AFA088 /* WatchPlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7D4E22AF1A1CFD3800AFA088 /* WatchPlayground WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4E22D61A1CFD3800AFA088 /* Build configuration list for PBXNativeTarget "WatchPlayground WatchKit Extension" */;
+			buildPhases = (
+				7D4E22AC1A1CFD3800AFA088 /* Sources */,
+				7D4E22AD1A1CFD3800AFA088 /* Frameworks */,
+				7D4E22AE1A1CFD3800AFA088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4E22C81A1CFD3800AFA088 /* PBXTargetDependency */,
+			);
+			name = "WatchPlayground WatchKit Extension";
+			productName = "WatchPlayground WatchKit Extension";
+			productReference = 7D4E22B01A1CFD3800AFA088 /* WatchPlayground WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7D4E22C41A1CFD3800AFA088 /* WatchPlayground Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4E22D31A1CFD3800AFA088 /* Build configuration list for PBXNativeTarget "WatchPlayground Watch App" */;
+			buildPhases = (
+				7D4E22C31A1CFD3800AFA088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchPlayground Watch App";
+			productName = "WatchPlayground Watch App";
+			productReference = 7D4E22C51A1CFD3800AFA088 /* WatchPlayground Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +337,12 @@
 					7D4E229B1A1CFCBF00AFA088 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 7D4E227F1A1CFCBF00AFA088;
+					};
+					7D4E22AF1A1CFD3800AFA088 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7D4E22C41A1CFD3800AFA088 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -195,6 +361,8 @@
 			targets = (
 				7D4E227F1A1CFCBF00AFA088 /* WatchPlayground */,
 				7D4E229B1A1CFCBF00AFA088 /* WatchPlaygroundTests */,
+				7D4E22AF1A1CFD3800AFA088 /* WatchPlayground WatchKit Extension */,
+				7D4E22C41A1CFD3800AFA088 /* WatchPlayground Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +382,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4E22AE1A1CFD3800AFA088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E22C61A1CFD3800AFA088 /* WatchPlayground Watch App.app in Resources */,
+				7D4E22C21A1CFD3800AFA088 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4E22C31A1CFD3800AFA088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E22CD1A1CFD3800AFA088 /* Interface.storyboard in Resources */,
+				7D4E22CF1A1CFD3800AFA088 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +425,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D4E22AC1A1CFD3800AFA088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E22DC1A1D054000AFA088 /* Player.m in Sources */,
+				7D4E22BD1A1CFD3800AFA088 /* NotificationController.m in Sources */,
+				7D4E22DF1A1D0C9600AFA088 /* RowController.m in Sources */,
+				7D4E22BA1A1CFD3800AFA088 /* InterfaceController.m in Sources */,
+				7D4E22C01A1CFD3800AFA088 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -246,6 +444,16 @@
 			isa = PBXTargetDependency;
 			target = 7D4E227F1A1CFCBF00AFA088 /* WatchPlayground */;
 			targetProxy = 7D4E229D1A1CFCBF00AFA088 /* PBXContainerItemProxy */;
+		};
+		7D4E22C81A1CFD3800AFA088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4E22C41A1CFD3800AFA088 /* WatchPlayground Watch App */;
+			targetProxy = 7D4E22C71A1CFD3800AFA088 /* PBXContainerItemProxy */;
+		};
+		7D4E22D11A1CFD3800AFA088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4E22AF1A1CFD3800AFA088 /* WatchPlayground WatchKit Extension */;
+			targetProxy = 7D4E22D01A1CFD3800AFA088 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,6 +609,62 @@
 			};
 			name = Release;
 		};
+		7D4E22D41A1CFD3800AFA088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchPlayground_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchPlayground Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7D4E22D51A1CFD3800AFA088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = WatchPlayground_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchPlayground Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		7D4E22D71A1CFD3800AFA088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchPlayground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D4E22D81A1CFD3800AFA088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchPlayground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,6 +690,22 @@
 			buildConfigurations = (
 				7D4E22AA1A1CFCBF00AFA088 /* Debug */,
 				7D4E22AB1A1CFCBF00AFA088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D4E22D31A1CFD3800AFA088 /* Build configuration list for PBXNativeTarget "WatchPlayground Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4E22D41A1CFD3800AFA088 /* Debug */,
+				7D4E22D51A1CFD3800AFA088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D4E22D61A1CFD3800AFA088 /* Build configuration list for PBXNativeTarget "WatchPlayground WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4E22D71A1CFD3800AFA088 /* Debug */,
+				7D4E22D81A1CFD3800AFA088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
